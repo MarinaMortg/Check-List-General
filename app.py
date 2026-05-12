@@ -109,7 +109,7 @@ def get_result_by_score(score):
     elif score <=7:
         return "⚠️ Partially OK(B2)"
     else:
-        return "✅ Excellent"
+        return "✅ Excellent (С1)"
 #Result#
 if st.button("Показать результат"):
    result = get_result_by_score(total_score)
