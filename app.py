@@ -1,7 +1,7 @@
 import streamlit as st
 
 col1, col2 = st.columns(2)
-
+"
 st.markdown("""
 <style>
 h3 {
@@ -18,7 +18,6 @@ div[role="radiogroup"] {
  
  
 st.title("*General English Checklist*")
- 
 with col1:
 #Answers#
 st.subheader("Understanding/Comprehension")
