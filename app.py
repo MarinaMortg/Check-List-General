@@ -17,12 +17,16 @@ div[role="radiogroup"] {
  
 st.title("*General English Checklist*")
 
-col1, col2 = st.columns(2, gap = "large")
+col1, spacer, col2 = st.columns([1, 0.3, 1])
 ""
 
 #Answers#
 with col1:
-  
+    st.subheader("Left")
+    st.radio("",
+        ["A", "B", "C"]
+    )
+
     st.subheader("Understanding/Comprehension")
     
     
@@ -46,7 +50,13 @@ with col1:
     index = 1 
 )
 
+with col2:
+    st.subheader("Right")
+    st.radio("",
+        ["X", "Y", "Z"]
     )
+
+    
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
