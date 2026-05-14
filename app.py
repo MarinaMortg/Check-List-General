@@ -23,6 +23,8 @@ col1, col2 = st.columns(2, gap = "large")
 #Answers#
 with col1:
     st.subheader("Understanding/Comprehension")
+    t.markdown("<br>", unsafe_allow_html=True)
+    
     understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
