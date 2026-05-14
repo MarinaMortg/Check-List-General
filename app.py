@@ -25,15 +25,11 @@ with col1:
     st.markdown("<div style='padding-right: 20px'></div>", unsafe_allow_html=True)
 ""
     st.subheader("Understanding/Comprehension")
-    
-    
     understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
     index = 1 
 )
- 
- 
     st.subheader("Fluency/Tempo of Speech")
     fluency_tempo_answer = st.radio(
     "",
