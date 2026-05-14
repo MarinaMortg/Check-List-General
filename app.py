@@ -41,15 +41,14 @@ with col1:
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
 )
- 
+ with col2:
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
     ["часто непонятно, мешает пониманию","в целом понятно","легко понятно"],
    index = 1
 )
-with col2:
-    st.subheader("Coherence/Structure of Answers")
+   st.subheader("Coherence/Structure of Answers")
     coherence_answer = st.radio(
     "",
     ["фразы обрывочные, нет логики", "слабая структура, перескакивает, но мысль понятна","логично и последовательно"],
