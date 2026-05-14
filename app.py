@@ -23,7 +23,7 @@ col1, col2 = st.columns(2, gap = "large")
 #Answers#
 with col1:
     st.subheader("Understanding/Comprehension")
-    t.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
     
     understanding_answer = st.radio(
    "",
