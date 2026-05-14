@@ -22,8 +22,9 @@ col1, col2 = st.columns(2, gap = "large")
 
 #Answers#
 with col1:
+    with st.container():
     st.subheader("Understanding/Comprehension")
-    st.markdown("<br>", unsafe_allow_html=True)
+    
     
     understanding_answer = st.radio(
    "",
