@@ -23,7 +23,7 @@ col1, spacer, col2 = st.columns([1, 0.3, 1])
 #Answers#
 with col1:
     st.markdown("<div style='padding-right: 20px'></div>", unsafe_allow_html=True)
-""
+
     st.subheader("Understanding/Comprehension")
     understanding_answer = st.radio(
    "",
