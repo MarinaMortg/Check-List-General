@@ -22,29 +22,29 @@ col1, col2 = st.columns(2)
 #Answers#
 with col1:
      st.subheader("Understanding/Comprehension")
-understanding_answer = st.radio(
+     understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
     index = 1 
 )
  
  
-st.subheader("Fluency/Tempo of Speech")
-fluency_tempo_answer = st.radio(
+    st.subheader("Fluency/Tempo of Speech")
+    fluency_tempo_answer = st.radio(
     "",
     ["длинные частые паузы", "есть паузы, речь медленная, но связная", "комфортный темп, речь плавная"],
     index = 1 
 )
  
-st.subheader("Confidence")
+     st.subheader("Confidence")
 confidence_answer = st.radio(
     "", 
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
 )
  
-st.subheader("Pronunciation/Intelligibility")
-pronunciation_answer = st.radio(
+    st.subheader("Pronunciation/Intelligibility")
+    pronunciation_answer = st.radio(
     "",
     ["часто непонятно, мешает пониманию","в целом понятно","легко понятно"],
    index = 1
