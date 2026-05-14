@@ -22,11 +22,7 @@ col1, col2 = st.columns(2, gap = "large")
 
 #Answers#
 with col1:
-    st.subheader("Left")
-    st.radio("",
-        ["A", "B", "C"]
-    )
-
+  
     st.subheader("Understanding/Comprehension")
     
     
@@ -49,10 +45,7 @@ with col1:
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
 )
-with col2:
-    st.subheader("Right")
-    st.radio("",
-        ["X", "Y", "Z"]
+
     )
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
