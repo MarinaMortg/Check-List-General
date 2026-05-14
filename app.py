@@ -48,7 +48,7 @@ with col2:
     ["часто непонятно, мешает пониманию","в целом понятно","легко понятно"],
    index = 1
 )
-   st.subheader("Coherence/Structure of Answers")
+    st.subheader("Coherence/Structure of Answers")
     coherence_answer = st.radio(
     "",
     ["фразы обрывочные, нет логики", "слабая структура, перескакивает, но мысль понятна","логично и последовательно"],
