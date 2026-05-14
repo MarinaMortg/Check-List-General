@@ -49,25 +49,25 @@ with col1:
    index = 1
 )
 with col2:
-       st.subheader("Coherence/Structure of Answers")
-coherence_answer = st.radio(
+    st.subheader("Coherence/Structure of Answers")
+    coherence_answer = st.radio(
     "",
     ["фразы обрывочные, нет логики", "слабая структура, перескакивает, но мысль понятна","логично и последовательно"],
 index = 1 
 )
-st.subheader("Grammar Accuracy")
-grammar_answer = st.radio(
+    st.subheader("Grammar Accuracy")
+    grammar_answer = st.radio(
     "",
     ["ошибок много, мешают пониманию","ошибки есть, но не являются значительными", "редкие и незначительные ошибки/ошибок нет"],
 )
 #Scores#
  
-Understanding_Scores = {
+    Understanding_Scores = {
     "переспрашивает, отвечает не по теме": 0,
     "теряется, понимает после повторения или переформулировки": 1,
     "понимает с первого раза, отвечает по сути": 2,
 }
-Fluency_Scores = {
+    Fluency_Scores = {
     "длинные частые паузы":0,
     "есть паузы, речь медленная, но связная":1,
 "комфортный темп, речь плавная": 2
