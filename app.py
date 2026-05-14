@@ -23,7 +23,7 @@ col1, col2 = st.columns(2, gap = "large")
 #Answers#
 with col1:
     with st.container():
-    st.subheader("Understanding/Comprehension")
+        st.subheader("Understanding/Comprehension")
     
     
     understanding_answer = st.radio(
