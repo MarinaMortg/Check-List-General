@@ -54,8 +54,6 @@ with col2:
     st.radio("",
         ["X", "Y", "Z"]
     )
-``
-
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
