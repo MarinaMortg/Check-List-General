@@ -35,9 +35,8 @@ with col1:
     ["длинные частые паузы", "есть паузы, речь медленная, но связная", "комфортный темп, речь плавная"],
     index = 1 
 )
- 
-     st.subheader("Confidence")
-     confidence_answer = st.radio(
+    st.subheader("Confidence")
+    confidence_answer = st.radio(
     "", 
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
