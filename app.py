@@ -22,8 +22,12 @@ col1, col2 = st.columns(2, gap = "large")
 
 #Answers#
 with col1:
-    with st.container():
-        st.subheader("Understanding/Comprehension")
+    st.subheader("Left")
+    st.radio("",
+        ["A", "B", "C"]
+    )
+
+    st.subheader("Understanding/Comprehension")
     
     
     understanding_answer = st.radio(
@@ -46,6 +50,12 @@ with col1:
     index = 1 
 )
 with col2:
+    st.subheader("Right")
+    st.radio("",
+        ["X", "Y", "Z"]
+    )
+``
+
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
