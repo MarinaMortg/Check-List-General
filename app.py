@@ -41,7 +41,7 @@ with col1:
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
 )
- with col2:
+with col2:
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
