@@ -20,8 +20,8 @@ div[role="radiogroup"] {
 st.title("*General English Checklist*")
 
 #Answers#
-with col2:
-st.subheader("Understanding/Comprehension")
+with col1:
+     st.subheader("Understanding/Comprehension")
 understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
@@ -50,7 +50,7 @@ pronunciation_answer = st.radio(
    index = 1
 )
 with col2:
-st.subheader("Coherence/Structure of Answers")
+       st.subheader("Coherence/Structure of Answers")
 coherence_answer = st.radio(
     "",
     ["фразы обрывочные, нет логики", "слабая структура, перескакивает, но мысль понятна","логично и последовательно"],
