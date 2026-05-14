@@ -21,8 +21,8 @@ col1, col2 = st.columns(2)
 
 #Answers#
 with col1:
-     st.subheader("Understanding/Comprehension")
-     understanding_answer = st.radio(
+    st.subheader("Understanding/Comprehension")
+    understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
     index = 1 
@@ -37,7 +37,7 @@ with col1:
 )
  
      st.subheader("Confidence")
-confidence_answer = st.radio(
+     confidence_answer = st.radio(
     "", 
     ["боится говорить","теряется при ошибках/может перейти на русский", "продолжает говорить, сам исправляется"],
     index = 1 
