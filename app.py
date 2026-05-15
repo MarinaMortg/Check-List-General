@@ -24,7 +24,7 @@ col1, spacer, col2 = st.columns([1, 0.3, 1])
 with col1:
     st.markdown("<div style='padding-right: 20px'></div>", unsafe_allow_html=True)
 
-    st.subheader("Understanding/Comprehension")
+    st.markdown("###Understanding/<br>Comprehension", unsafe_allow_html=True)
     understanding_answer = st.radio(
    "",
     ["переспрашивает, отвечает не по теме","теряется, понимает после повторения или переформулировки","понимает с первого раза, отвечает по сути"], 
