@@ -18,7 +18,7 @@ div[role="radiogroup"] {
 st.title("*General English Checklist*")
 
 col1, spacer, col2 = st.columns([1, 0.3, 1])
-""
+
 
 #Answers#
 with col1:
@@ -45,7 +45,6 @@ with col1:
 
 with col2:
     st.markdown("<div style='padding-left: 20px'></div>", unsafe_allow_html=True)
-""
     st.subheader("Pronunciation/Intelligibility")
     pronunciation_answer = st.radio(
     "",
