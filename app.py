@@ -62,6 +62,11 @@ index = 1
     "",
     ["ошибок много, мешают пониманию","ошибки есть, но не являются значительными", "редкие и незначительные ошибки/ошибок нет"],
 )
+    st.subheader("Speech Clarity")
+    speechclarity_answer = st.radio(
+        "",
+        ["сильный акцент","заметный акцент, но в простом общении допустим", "легкий/нейтральный акцент"
+)
 #Scores#
  
     Understanding_Scores = {
@@ -94,7 +99,18 @@ Grammar_Scores = {
     "ошибки есть, но не являются значительными":1,
 "редкие и незначительные ошибки/ошибок нет":2,
     }
- 
+Speechclarity_Scores ={
+    "сильный акцент":0,
+    "заметный акцент, но в простом общении допустим":1
+    "легкий/нейтральный акцент":2
+#Scores3#
+ if speechclarity_score == 2:
+    speechclarity_result = "✅ Подходит для общения с носителями"
+elif speechclarity_score == 1:
+    speechclarity_result = "⚠️ Условно подходит"
+ else:
+    speechclarity_result: "❌ Не подходит для общения с носителями"
+
 #Scores2#
 total_score = (
     Understanding_Scores[understanding_answer] +
