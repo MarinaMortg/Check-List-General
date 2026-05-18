@@ -109,7 +109,7 @@ Speechclarity_Scores ={
 #Scores3#
     if speechclarity_score == 2:
     speechclarity_result = "✅ Подходит для общения с носителями"
-    elif speechclarity_score == 1:
+elif speechclarity_score == 1:
     speechclarity_result = "⚠️ Условно подходит"
     else:
     speechclarity_result: "❌ Не подходит для общения с носителями"
