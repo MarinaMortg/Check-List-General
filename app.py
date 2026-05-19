@@ -45,12 +45,6 @@ with col1:
 
 with col2:
     st.markdown("<div style='padding-left: 20px'></div>", unsafe_allow_html=True)
-    st.subheader("Pronunciation/Intelligibility")
-    pronunciation_answer = st.radio(
-    "",
-    ["часто непонятно, мешает пониманию","в целом понятно","легко понятно"],
-   index = 1
-)
     st.subheader("Coherence/Structure of Answers")
     coherence_answer = st.radio(
     "",
@@ -62,8 +56,8 @@ index = 1
     "",
     ["ошибок много, мешают пониманию","ошибки есть, но не являются значительными", "редкие и незначительные ошибки/ошибок нет"],
 )
-    st.subheader("Speech Clarity")
-    speechclarity_answer = st.radio(
+    st.subheader("Pronunciaton/Speech Clarity")
+    Pronunciation/speechclarity_answer = st.radio(
         "",
         ["сильный акцент","заметный акцент, но в простом общении допустим", "легкий/нейтральный акцент"],
         index = 1
@@ -101,7 +95,7 @@ Grammar_Scores = {
 "редкие и незначительные ошибки/ошибок нет":2,
 }
     
-Speechclarity_Scores ={
+Pronunciation/Speechclarity_Scores ={
     "сильный акцент":0,
     "заметный акцент, но в простом общении допустим":1,
     "легкий/нейтральный акцент":2,
@@ -119,9 +113,9 @@ total_score = (
     Understanding_Scores[understanding_answer] +
     Fluency_Scores[fluency_tempo_answer] +
     Confidence_Scores[confidence_answer]+
-    Pronunciation_Scores[pronunciation_answer]+
     Coherence_Scores[coherence_answer]+
-    Grammar_Scores[grammar_answer]
+    Grammar_Scores[grammar_answer]+
+    Pronunciation/Speech Clarity_Scores[pronunciation/speechclarity_answer]
 )
 
  
