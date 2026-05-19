@@ -119,7 +119,7 @@ def get_result_by_score(score):
         return "❌ Not OK(A1-A2)"
     elif score <= 6:
         return "❌ Not OK(A2-B1)"
-    elif score <=7:
+    elif score <=10:
         return "⚠️ Partially OK(B2)"
     else:
         return "✅ Excellent (С1)"
