@@ -79,11 +79,6 @@ Confidence_Scores = {
     "говорит, но теряется при сложностях/может сбиваться или перейти на русский":1,
     "продолжает говорить, сам исправляется":2,
     }
-Pronunciation_Scores = {
-    "часто непонятно, мешает пониманию":0,
-    "в целом понятно":1,
-    "легко понятно":2,
-}
 Coherence_Scores = {
     "нет логики, сложно понять мысль":0,
     "логика есть, но структура слабая":1,
@@ -95,7 +90,7 @@ Grammar_Scores = {
 "редкие и незначительные ошибки/ошибок нет":2,
 }
     
-Pronunciation/Speechclarity_Scores ={
+Pronunciation_Speechclarity_Scores ={
     "сильный акцент":0,
     "заметный акцент, но в простом общении допустим":1,
     "легкий/нейтральный акцент":2,
@@ -115,7 +110,7 @@ total_score = (
     Confidence_Scores[confidence_answer]+
     Coherence_Scores[coherence_answer]+
     Grammar_Scores[grammar_answer]+
-    Pronunciation/SpeechClarity_Scores[pronunciation/speechclarity_answer]
+    Pronunciation_Speechclarity_Scores[pronunciation/speechclarity_answer]
 )
 
  
