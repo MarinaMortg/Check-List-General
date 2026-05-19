@@ -95,13 +95,7 @@ Pronunciation_Speechclarity_Scores ={
     "заметный акцент, но в простом общении допустим":1,
     "легкий/нейтральный акцент":2,
 }
-#Scores3#
-if pronunciation_speechclarity_score == 2:
-    prononciation_speechclarity_result = "✅ Подходит для общения с носителями"
-elif speechclarity_score == 1:
-    prononciation_speechclarity_result = "⚠️ Условно подходит"
-else:
-    prononciation_speechclarity_result ="❌ Не подходит для общения с носителями"
+
 
 #Scores2#
 total_score = (
