@@ -57,7 +57,7 @@ index = 1
     ["ошибок много, мешают пониманию","ошибки есть, но не являются значительными", "редкие и незначительные ошибки/ошибок нет"],
 )
     st.subheader("Pronunciaton/Speech Clarity")
-    pronunciation_speechclarity_answer == st.radio(
+    pronunciation_speechclarity_answer = st.radio(
         "",
         ["сильный акцент","заметный акцент, но в простом общении допустим", "легкий/нейтральный акцент"],
         index = 1
