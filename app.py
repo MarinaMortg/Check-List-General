@@ -104,7 +104,7 @@ total_score = (
     Confidence_Scores[confidence_answer]+
     Coherence_Scores[coherence_answer]+
     Grammar_Scores[grammar_answer]+
-    Pronunciation_Speechclarity_Scores[pronunciation/speechclarity_answer]
+    Pronunciation_Speechclarity_Scores[pronunciation_speechclarity_answer]
 )
 
  
