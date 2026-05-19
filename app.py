@@ -57,7 +57,7 @@ index = 1
     ["ошибок много, мешают пониманию","ошибки есть, но не являются значительными", "редкие и незначительные ошибки/ошибок нет"],
 )
     st.subheader("Pronunciaton/Speech Clarity")
-    Pronunciation/speechclarity_answer == st.radio(
+    pronunciation/speechclarity_answer == st.radio(
         "",
         ["сильный акцент","заметный акцент, но в простом общении допустим", "легкий/нейтральный акцент"],
         index = 1
@@ -115,7 +115,7 @@ total_score = (
     Confidence_Scores[confidence_answer]+
     Coherence_Scores[coherence_answer]+
     Grammar_Scores[grammar_answer]+
-    Pronunciation/Speech Clarity_Scores[pronunciation/speechclarity_answer]
+    Pronunciation/SpeechClarity_Scores[pronunciation/speechclarity_answer]
 )
 
  
